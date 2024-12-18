@@ -14,6 +14,7 @@ import (
 	log "github.com/sirupsen/logrus"
 )
 
+
 func main() {
 	cfg, err := C.GetConfig()
 	if err != nil {
